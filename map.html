@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="An interactive getting started guide for Brackets.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body id="body">
+    <header>
+        <pre> <a href="http://www.yandex.ru" id="icon" title="Main page"> &#x2708 YourTravels </a> </pre>
+        <ul>
+        </ul>
+    </header>
+
+    <script>
+
+        icon.addEventListener('mouseover', handler1);
+        icon.addEventListener('mouseout', handler2);
+
+        function handler1() {
+            //alert('Спасибо!');
+            this.style.fontSize = '330%';
+        };
+        function handler2() {
+            //alert('dfdt');
+            this.style.fontSize = '300%';
+        };
+
+    </script>
+
+    <div id="container">
+        <div id="nav">
+            <p>Левая колонка</p>
+        </div>
+        <div id="aside">
+            <p>Правая колонка </p>
+        </div>
+        <div id="content">
+            <p>Центральная колонка </p>
+            <object data="MapOfEurop.svg" type="image/svg+xml" id="imap" width="700.20001" height="544.77948"></object>
+        </div>
+        <script>
+            
+        </script>
+        <div id="footer">&copy; Влад Мержевич</div>
+    </div>
+</body>
+
+</html>
