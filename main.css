@@ -30,14 +30,6 @@
     left: 0;
 }
 
-#buttonForLogIn {
-
-}
-
-#aaa {
-    vertical-align: 50%;
-}
-
 #sticky-footer {
     flex-shrink: none;
 }
@@ -52,10 +44,9 @@
 
 #registrationForm {
     width: 100%;
-    max-width: 330px;
+    max-width: 360px;
     align-self: center;
     margin: auto;
-   
     background-color: white;
 }
 
@@ -64,8 +55,18 @@
     margin-bottom: 60px;
     background-color: white;
     width: 100%;
-    max-width: 380px;
-    max-height: 500px;
+    border-style: solid;
+    border-color: #0066cc;
+    border-width: 2px;
+}
+
+#bodyReg {
+    background-color: rgb(233, 244, 255);
+}
+
+#RegFormElemsDiv {
+    width: 100%;
+    text-align: center;
 }
 
 

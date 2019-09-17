@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
-<body>
+<body id="bodyReg">
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" id="nav">
 
-        <a href="#" class="navbar-brand" id="icon"> &#x2708 YourTravels</a>
+        <a href="index.html" class="navbar-brand" id="icon"> &#x2708 YourTravels</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
             id="buttonForMenu">
@@ -67,7 +67,9 @@
             <div class="col-sm-4" id="col">
                 <div class="divOutFormReg">
                     <form id="registrationForm">
-                        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+                        <div class="form-group" id="RegFormElemsDiv">
+                            <h1 class="h2 mb-2 font-weight-normal">Please sign in</h1>
+                        </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1"
@@ -80,7 +82,9 @@
                             <input type="password" class="form-control" id="exampleInputPassword1"
                                 placeholder="Password">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group" id="RegFormElemsDiv">
+                            <button type="submit" class="btn btn-primary" style="width: 50%">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>
@@ -102,13 +106,6 @@
             <button class="btn btn-primary">Log in</button>
         </div>
     </form>
-
-    <footer id="sticky-footer" class="py-2 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>YourTravel</small>
-        </div>
-    </footer>
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
