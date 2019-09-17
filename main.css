@@ -43,13 +43,29 @@
 }
 
 #col {
-    border-style: solid !important;
-    border-width: 1px !important;
-    border-color: rgb(151, 156, 161);
+    background-color: rgb(233, 244, 255);
 }
 
 #formForLogIn {
     display: none;
+}
+
+#registrationForm {
+    width: 100%;
+    max-width: 330px;
+    align-self: center;
+    margin: auto;
+   
+    background-color: white;
+}
+
+.divOutFormReg{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: white;
+    width: 100%;
+    max-width: 380px;
+    max-height: 500px;
 }
 
 
